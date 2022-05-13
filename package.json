@@ -1,0 +1,20 @@
+{
+  "name": "sakila",
+  "version": "0.0.0",
+  "description": "Database Management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Prisma",
+    "Docker",
+    "MySQL"
+  ],
+  "author": "@roremDev",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "prisma": "^3.14.0"
+  }
+}

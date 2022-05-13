@@ -52,6 +52,24 @@ SELECT COUNT(*) FROM film_text;
 
 <img src="./project/assets/count-film-text.png" alt="Count Film Text" />
 
+### 🛠 Launch Node
+
+Also, you can launch a node server to test the database.
+
+Before all, you need to install the dependencies:
+
+```bash
+npm install
+```
+
+Then you can launch the server script:
+
+```bash
+npm start
+```
+
+<img src="./project/assets/node.png" alt="Server Script" />
+
 ### Author
 
 > **Emmanuel Rodriguez** - ⚡️ Software Engineer
