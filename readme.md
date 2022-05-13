@@ -15,11 +15,9 @@ To start using this database, you need to lauch with Docker using `docker-compos
 
 When docker is up and running, you can connect to the database using the following command, writting the password:
 
-````
-
 ```bash
 docker-compose exec mysql mysql -u root -p
-````
+```
 
 Then you need to upload sql files to the database. You can do this using the following command:
 
@@ -45,6 +43,7 @@ For example:
 ```bash
 SELECT COUNT(*) FROM film;
 ```
+
 <img src="./project/assets/count-film.png" alt="Count Film" />
 
 ```bash
@@ -52,3 +51,19 @@ SELECT COUNT(*) FROM film_text;
 ```
 
 <img src="./project/assets/count-film-text.png" alt="Count Film Text" />
+
+### Author
+
+> **Emmanuel Rodriguez** - ⚡️ Software Engineer
+
+<div>
+  <a href="https://twitter.com/roremDev">
+  	<img src="https://img.shields.io/badge/Twitter-ECEFF4?style=for-the-badge&logo=Twitter" alt="Twitter Account" />
+  </a>
+    <a href="https://github.com/roremdev">
+  	<img src="https://img.shields.io/badge/GitHub-ECEFF4?style=for-the-badge&logo=GitHub&logoColor=2E3440" alt="Github Account" />
+  </a>
+    <a href="https://medium.com/@roremDev">
+  	<img src="https://img.shields.io/badge/Medium-ECEFF4?style=for-the-badge&logo=Medium&logoColor=2E3440" alt="Medium Account" />
+  </a>
+</div>
